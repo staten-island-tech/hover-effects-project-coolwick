@@ -1,0 +1,19 @@
+@import "_variables.scss";
+
+.text-effect {
+  background-image: url("./media/newyork.jpg");
+  background-position: center;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.3s;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.text-effect:hover {
+  transform: skewY(-10deg);
+  letter-spacing: 3rem;
+}
