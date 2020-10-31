@@ -240,6 +240,23 @@ body {
   top: 50%;
 }
 
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.notes-in-why-scss {
+  top: 100%;
+}
+
+.nothing {
+  color: white;
+}
+
 .container {
   width: 80vw;
   margin: auto;
